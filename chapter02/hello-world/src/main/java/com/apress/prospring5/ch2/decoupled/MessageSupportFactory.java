@@ -32,11 +32,11 @@ public class MessageSupportFactory {
         return instance;
     }
 
-    public MessageRenderer getRenderer() {
+    public MessageRenderer getMessageRenderer() {
         return renderer;
     }
 
-    public MessageProvider getProvider() {
+    public MessageProvider getMEssageProvider() {
         return provider;
     }
 }

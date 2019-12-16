@@ -12,8 +12,8 @@ public class StandardOutMessageRenderer implements MessageRenderer {
     }
 
     @Override
-    public void setMessageProvidr(MessageProvider providr) {
-        this.messageProvider = providr;
+    public void setMessageProvider(MessageProvider provider) {
+        this.messageProvider = provider;
     }
 
     @Override
