@@ -3,6 +3,7 @@ rootProject.name = 'prospring5'
 include 'chapter02:hello-world'
 include 'chapter03:dependency-pull'
 include 'chapter03:cdl'
+include 'chapter03:constructor-injection'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
