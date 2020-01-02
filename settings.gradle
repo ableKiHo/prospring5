@@ -15,4 +15,6 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
+include 'chapter05:simple-before-advice'
+findProject(':chapter05:simple-before-advice')?.name = 'simple-before-advice'
 
