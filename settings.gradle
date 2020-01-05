@@ -7,6 +7,8 @@ include 'chapter03:constructor-injection'
 include 'chapter03:setter-injection'
 
 include 'chapter05:aop-hello-world'
+include 'chapter05:simple-before-advice'
+include 'chapter05:security'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -15,6 +17,4 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'chapter05:simple-before-advice'
-findProject(':chapter05:simple-before-advice')?.name = 'simple-before-advice'
 
